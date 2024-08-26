@@ -3589,3 +3589,9 @@ ol {
 .border-secondary {
     border-color: #ffb524 !important;
 }
+
+.product__details ul{
+	border-top: 0px;
+	padding-top: 0px;
+    margin-top: 0px;
+}
