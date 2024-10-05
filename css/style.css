@@ -558,6 +558,10 @@ ol {
 	display: none;
 }
 
+.humberger__search {
+	display: none;
+}
+
 /*---------------------
   Hero
 -----------------------*/
@@ -2948,7 +2952,7 @@ ol {
 		margin-bottom: 30px;
 	}
 	.hero__search__form {
-		width: 485px;
+		width: 100%;
 	}
 	.categories__slider.owl-carousel .owl-nav button {
 		left: -20px;
@@ -2984,11 +2988,15 @@ ol {
 		width: 35px;
 		line-height: 33px;
 		text-align: center;
-		/* border: 1px solid #1c1c1c; */
+		border: 1px solid #1c1c1c;
 		cursor: pointer;
-		/* position: absolute; */
+		position: absolute; 
 		right: 15px;
 		top: 22px;
+		margin: 8px;
+	}
+	.humberger__search {
+		display: block;
 	}
 	.header .container {
 		position: relative;
@@ -3242,10 +3250,15 @@ ol {
 		width: 35px;
 		line-height: 33px;
 		text-align: center;
-		/* border: 1px solid #1c1c1c; */
+		border: 1px solid #1c1c1c;
 		cursor: pointer;
 		right: 15px;
 		top: 22px;
+		margin: 8px;
+		position: absolute;
+	}
+	.humberger__search {
+		display: block;
 	}
 	.header .container {
 		position: relative;
